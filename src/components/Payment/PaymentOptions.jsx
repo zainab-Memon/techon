@@ -77,6 +77,7 @@ const PaymentOptions = () => {
           <BiTransfer className="option-icon" />
         </div>
       </div>
+      <h4>... See all providers</h4>
     </div>
   );
 };

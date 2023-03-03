@@ -1,0 +1,38 @@
+.footer {
+  position: absolute;
+  left: 16rem;
+  top: 56rem;
+  height: 50px;
+  padding: 0.5rem 1rem 0.5rem 4rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 82%;
+  align-items: center;
+  border-top: 1px solid rgb(214, 214, 214);
+}
+
+.footer-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-right > p {
+  font-weight: 600;
+}
+.copy {
+  color: gray;
+}
+.footer-left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: rgb(110, 110, 110);
+}
+
+.night-icon {
+  border: 1px solid rgb(214, 214, 214);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+}
