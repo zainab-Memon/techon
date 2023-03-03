@@ -1,0 +1,32 @@
+.sidebar {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);
+  padding: 3rem;
+  padding-right: 4rem;
+  font-weight: 600;
+  color: grey;
+  left: -1rem;
+}
+.para {
+  font-weight: 400;
+}
+.item {
+  display: flex;
+
+  align-items: center;
+  gap: 0.8rem;
+}
+.active-item {
+  color: black;
+}
+.balance {
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  margin-top: 2rem;
+}

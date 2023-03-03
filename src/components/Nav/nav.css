@@ -1,0 +1,99 @@
+.nav {
+  display: flex;
+  position: absolute;
+  left: 16rem;
+  right: 3rem;
+  top: 2rem;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1rem 0 4rem;
+  max-width: 1600px;
+}
+.first-row {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.searchbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid rgb(214, 214, 214);
+}
+.profile-img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.input {
+  width: fit-content;
+  border: none;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+.input:hover {
+  border: none;
+  outline: none;
+}
+
+.noti--icon {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 0.2rem;
+  padding: 0.29rem 0.5rem;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-temp {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.temp-icon {
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  background-color: rgb(240, 236, 236);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+.btn-primary {
+  padding: 0.6rem 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-active {
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
