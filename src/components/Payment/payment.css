@@ -8,14 +8,13 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 0 1rem 0 4rem;
-  max-width: 800px;
   border-right: 1px solid rgb(214, 214, 214);
-
+  max-width: 1000px;
   margin-right: 3rem;
 }
 .options {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 1rem;
   padding: 0.3rem;
